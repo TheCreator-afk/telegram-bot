@@ -11,7 +11,7 @@ public class Main {
 
         // Register our bot
         try {
-            botsApi.registerBot(new TelegramBot());
+            botsApi.registerBot(new Telegrambot());
             System.out.println("Bot is alive!");
         } catch (TelegramApiException e) {
             System.err.println("Failed to register bot: " + e.getMessage());
