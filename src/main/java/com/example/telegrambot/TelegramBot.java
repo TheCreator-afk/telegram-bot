@@ -324,6 +324,6 @@ private void sendPhotosToAdmin(long chatId) {
 
   @Override
   public String getBotToken() {
-    return "6937094924:AAFRXOxVx7twfltpyHWp-NyV0AHA3l8zr4o";
+    return "yourtoken";
   }
 }
